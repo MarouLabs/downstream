@@ -49,7 +49,7 @@ def build_command(url, options):
         command.append(options.audio_format)
     else:
         merge = 'mp4' # Only merge to mp4 for now
-        command.append('--merge-output-format'),
+        command.append('--merge-output-format')
         command.append(merge)
 
     command.append('-o')
